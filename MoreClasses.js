@@ -1,35 +1,35 @@
 // Getters and Setters
 
-class Person {
-    constructor(firstName, lastName, age, heightInMm) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-        this.heightInMm = heightInMm;
-    }
+// class Person {
+//     constructor(firstName, lastName, age, heightInMm) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.age = age;
+//         this.heightInMm = heightInMm;
+//     }
 
-    get heightInInches() {
-        return this.heightInMm / 25.4;
-    }
+//     get heightInInches() {
+//         return this.heightInMm / 25.4;
+//     }
 
-    set heightInInches(value) {
-        this.heightInMm = value * 25.4;
-    }
+//     set heightInInches(value) {
+//         this.heightInMm = value * 25.4;
+//     }
 
-    get fullName() {
-        return `${this.firstName} ${this.lastName}`;
-    }
+//     get fullName() {
+//         return `${this.firstName} ${this.lastName}`;
+//     }
 
-    // get heightInCm() {
-    //     return this.heightInMm / 10;
-    // }
-}
+//     // get heightInCm() {
+//     //     return this.heightInMm / 10;
+//     // }
+// }
 
-let me = new Person("Luke", "Parker", 23, 1800);
-console.log(me);
-console.log(me.fullName);
-me.fullName = "Daniel Matthews";
-console.log(me.fullName);
+// let me = new Person("Luke", "Parker", 23, 1800);
+// console.log(me);
+// console.log(me.fullName);
+// me.fullName = "Daniel Matthews";
+// console.log(me.fullName);
 
 // console.log(me.heightInInches);
 // me.heightInInches = 72;
